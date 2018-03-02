@@ -1,55 +1,56 @@
 BRIEFING 
  
-Qual o nome do site?
+Qual o nome do site?Akgames
  
-Já possui domínio registrado?
+Já possui domínio registrado?Akgames.com.br
  
-Possui logotipo ou logomarca?
+Possui logotipo ou logomarca?nao
  
 Se possuir gostaria de uma reformulação? 
  
  
-Qual o público alvo que quer atingir com o site? 
+Qual o público alvo que quer atingir com o site?crianças,jovens. 
  
-Qual o seu objetivo com o site?
+Qual o seu objetivo com o site?noticiar novidades no mundo dos games.
  
-Qual a imagem que deseja que seja transmitda com o site/logomarca?
+Qual a imagem que deseja que seja transmitda com o site/logomarca?bem animada,chamativa e eletronica;para que
+possa trazer um show de bola.
  
-Cite alguns concorrentes:
+Cite alguns concorrentes:nenhum
  
-Estratégia Quais são os principais objetivos do site? Informar? Vender? Dar suporte? ...? 
+Estratégia Quais são os principais objetivos do site? Informar? Vender? Dar suporte? ...? as pricipas são informar e dar suporte aos
+games.
+
+Que tipo de site ele é? Puramente promocional? Coletor de Informações? Uma publicação? ...? publicações e informações.
+ 
+Quais são as mensagens mais importantes que o site deve passar aos visitantes? sobre games novidades,dicas,supoertes e informações.
+ 
+Quais são os planos para promover o site?nenhum
+ 
+Há uma data aproximada para o site tenha que estar pronto?não
  
  
-Que tipo de site ele é? Puramente promocional? Coletor de Informações? Uma publicação? ...?
- 
-Quais são as mensagens mais importantes que o site deve passar aos visitantes?
- 
-Quais são os planos para promover o site?
- 
-Há uma data aproximada para o site tenha que estar pronto?
- 
- 
-Briefing 
-Informações Gerais sobre o site Descreva o negócio/produto/empresa como se fosse uma pessoa. É sério? Jovem? Confiável? ...?
+Informações Gerais sobre o site 
+Descreva o negócio/produto/empresa como se fosse uma pessoa. É sério? Jovem? Confiável? ...? é jovem
  
 Quais são os pontos fortes e fracos do negócio/produto/empresa? Por quê? 
- 
+nulo. 
  
 Qual a mensagem que melhor descreve o conteúdo/atuação do negócio/produto/empresa?
  
-É necessário obter dados dos visitantes?
+ necessário obter dados dos visitantes?
  
 Público-Alvo 
  
-O que o site irá oferecer ao seu público-alvo? 
+O que o site irá oferecer ao seu público-alvo? info.
  
-O que os visitantes devem fazer no site?
+O que os visitantes devem fazer no site? 
  
-Conteúdo Que informação do site mudará? Com que freqüência e com que abrangência?
+Conteúdo Que informação do site mudará? Com que freqüência e com que abrangência?não
  
-Quem se beneficia com as atualizações?
+Quem se beneficia com as atualizações? leitor 
  
-Quais são as seções e funcionalidades que precisam existir?
+Quais são as seções e funcionalidades que precisam existir? 
  
 Qual é o "aceite" do site (o que precisa existir para "aceitar" que ele está pronto)?
  
@@ -59,7 +60,7 @@ Aparência (Design) Tem em mente alguma aparência para o web site?
 Briefing 
 Existem padrões existentes, como logotipos e cores, que devem estar presentes?
  
-O site parte de um site maior ou grupo de sites com padrões de design que precisam ser correspondidos?
+O site parte de um site maior ou grupo de sites com padrões de design que precisam ser correspondidos?não
  
 Quais são alguns outros sites da web que você gosta?
 
