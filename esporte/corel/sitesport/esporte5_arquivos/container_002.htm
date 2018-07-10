@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>SafeFrame Container</title>
+    <script async="" src="container_data_003/beacon.js"></script><script>
+(function(){var b=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\s\xa0]*([\s\S]*?)[\s\xa0]*$/.exec(a)[1]},g=function(a,c){return a<c?-1:a>c?1:0};var h;a:{var k=this.navigator;if(k){var l=k.userAgent;if(l){h=l;break a}}h=""};var n=function(a,c){var f=m;return Object.prototype.hasOwnProperty.call(f,a)?f[a]:f[a]=c(a)};var q=-1!=h.indexOf("Opera"),r=-1!=h.indexOf("Trident")||-1!=h.indexOf("MSIE"),t=-1!=h.indexOf("Edge"),u=-1!=h.indexOf("Gecko")&&!(-1!=h.toLowerCase().indexOf("webkit")&&-1==h.indexOf("Edge"))&&!(-1!=h.indexOf("Trident")||-1!=h.indexOf("MSIE"))&&-1==h.indexOf("Edge"),v=-1!=h.toLowerCase().indexOf("webkit")&&-1==h.indexOf("Edge"),w;a:{var x="",y=function(){var a=h;if(u)return/rv:([^\);]+)(\)|;)/.exec(a);if(t)return/Edge\/([\d\.]+)/.exec(a);if(r)return/\b(?:MSIE|rv)[: ]([^\);]+)(\)|;)/.exec(a);if(v)return/WebKit\/(\S+)/.exec(a);if(q)return/(?:Version)[ \/]?(\S+)/.exec(a)}();y&&(x=y?y[1]:"");if(r){var z,A=this.document;z=A?A.documentMode:void 0;if(null!=z&&z>parseFloat(x)){w=String(z);break a}}w=x}var B=w,m={},C=function(a){return n(a,function(){for(var c=0,f=b(String(B)).split("."),O=b(String(a)).split("."),Z=Math.max(f.length,O.length),p=0;0==c&&p<Z;p++){var d=f[p]||"",e=O[p]||"";do{d=/(\d*)(\D*)(.*)/.exec(d)||["","","",""];e=/(\d*)(\D*)(.*)/.exec(e)||["","","",""];if(0==d[0].length&&0==e[0].length)break;c=g(0==d[1].length?0:parseInt(d[1],10),0==e[1].length?0:parseInt(e[1],10))||g(0==d[2].length,0==e[2].length)||g(d[2],e[2]);d=d[3];e=e[3]}while(0==c)}return 0<=c})};var D=u||v||r&&C(11)||t;var aa=/^([^;]+);(\d+);([\s\S]*)$/;try{var E,F=aa.exec(window.name);if(null===F)throw Error("Cannot parse serialized data");var G=+F[2],H=F[3];if(G>H.length)throw Error("Cannot parse serialized data");E={b:F[1],content:H.substr(0,G),a:H.substr(G)};var I;var J=window.location.hash;if(J){var K=J.match(/[&#]eid=([\d,]+)/);I=K?K[1].split(","):[]}else I=[];var ba=I;D&&(window.name="");var L=JSON.parse(E.a);L.goog_safeframe_hlt&&(this.goog_safeframe_hlt=L.goog_safeframe_hlt);L._context&&(this.AMP_CONTEXT_DATA=L._context);this.sf_={v:E.b,exp:ba,cfg:L};var M=E.content,N=window;if(D){var P=N.document;P.open("text/html","replace");P.write(M);P.close()}else{var Q=M,R;if(R=r&&C(7)&&!C(10)){var S=navigator.userAgent.match(/Trident\/([0-9]+.[0-9]+)/);R=6>(S?parseFloat(S[1]):0)}var T;if(T=R)a:{for(var U=0;U<Q.length;++U)if(127<Q.charCodeAt(U)){T=!0;break a}T=!1}if(T){for(var V=unescape(encodeURIComponent(Q)),W=Math.floor(V.length/2),X=[],Y=0;Y<W;++Y)X[Y]=String.fromCharCode(256*V.charCodeAt(2*Y+1)+V.charCodeAt(2*Y));1==V.length%2&&(X[W]=V.charAt(V.length-1));Q=X.join("")}N.goog_content=Q;N.location.replace("javascript:window.goog_content")}}catch(a){};}).call(this);
+    </script><meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"><script>var google_casm=[];</script><script></script><style>@font-face {
+ 	           font-family:'UOLText';src:url('//stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-italic.eot?v5');src:local('?'),url('//stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-italic.eot?#iefix') format('embedded-opentype'),url('//stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-italic.woff?v5') format('woff'),url('//stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-italic.ttf?v5') format('truetype'),url('//stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-italic.svg?v5#uol-text-italic') format('svg');font-weight:normal;font-style:italic;
+    	    }
+			*, :after, :before {
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			a {
+				cursor: pointer;
+				text-decoration: none;
+			}
+			body, html {
+				font-family: 'UOLText';
+				margin: 0;
+				padding: 0;
+				width: auto;
+				overflow: hidden;
+			}
+			/* ==========================================================================
+			Bloco CSS para o formato Lateral
+			========================================================================== */
+			.ad-box {
+				text-decoration: none;
+				display: block;
+				height: 100%;
+				width: 100%;
+			}
+			.ad-box .ad-image {
+				background-image: url("https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCbxKSWKBABGAEyCJrh-Swjhsws");
+				background-size: cover;
+				background-position: center;
+				position: relative;
+				height:0;
+				padding: 0 0 62.62%;
+				width: 100%;
+			}
+			.ad-box .ad-image:before {
+				background: #000;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				content: "";
+				opacity: 0;
+			}
+			.ad-box:hover .ad-image:before {
+				opacity: 0.4;
+			}
+			.ad-box .ad-label {
+				position: relative;
+    			top: -1px;
+				color: #fff;
+				font: normal 13px/14px 'UOLText', sans-serif;
+				overflow: hidden;
+				padding: 3px 8px;
+				text-transform: capitalize;
+				background-color: #000;
+			}
+			.ad-box .ad-text-wrapper {
+				margin-top: 11px;
+			}
+			.ad-box .ad-text {
+				margin: 0;
+				word-break: break-word;
+    			color: #444;
+    			font: oblique 16px/22px 'UOLText', sans-serif;
+    			display: block;
+			}
+			.ad-box:hover .ad-text {
+				color: #a41b1b;
+			}
+			@media (min-width: 300px) { /* em iframes min-width serve para  largura do container pai, ja min-device-width serve para pegar a largura do device*/
+				.ad-box .ad-image {
+					padding: 0;
+					width: 0;
+					float: left;
+					margin: 0 10px 0 0;
+					padding: 0 100px 100px 0;
+				}
+				.ad-box .ad-label {
+					font: normal 12px/22px 'UOLText', sans-serif;
+					padding: 3px 10px;
+				}
+				.ad-box .ad-text-wrapper {
+					margin-top: 2px;
+				}
+				.ad-box .ad-text {
+					font: 400 16px/22px 'UOLText', sans-serif;
+					font-style: oblique;
+				}
+			}</style></head><body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0"><script src="container_data_003/ext.js"></script><script>var viewReq = new Array();function vu(u) {var i=new Image();i.src=u.replace("&amp;","&");viewReq.push(i);}</script><script>vu("https://securepubads.g.doubleclick.net/pcs/view?xai\u003dAKAOjssjSCTcbCqqQUTyDcj7RHLQf-OyVxmz4ubLwNkZ9tu4RCEOCxjgg4Y8EcCgNnccZBG0zc0IYIaPNQjbE_EBM9yrILycw8sW6HuGHns4sbks3lCgKfy648qMA74H82fKjlOjxBzFTDFaaX_daFt_ZlwomjKyWrs7tycFYsovt7z0N8OkkhirunwMA_MBaG-6XIRGUq3K5AD8wwr5giCTpvZG-XywVkTwQqRrxp04wXBIL5_KdoUl\u0026sai\u003dAMfl-YRdwJuhMjWxN1mq8hMxZ1F1yaPFryhfL_q-YHoBJ85C3DV6DjUZN1fCnzZ-ZEr5VoCzzizNw3YcpJlOsEQoArry8YI4lvrXEKpumz03DeNanUpW1-rm3U_4Ilo\u0026sig\u003dCg0ArKJSzGP-rFuJihcFEAE\u0026urlfix\u003d1\u0026adurl\u003d")</script><div><a class="ad-box 1-native-maislidas-internas" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuNzymD0FPU2RWseEwNQwJu1Raixj0FvLNubszF32iJu17wAEi7Lx6oSU8iA802nkNTuypBfaLsoln8zsfIuTqEsO9YaAvAq94_vefj0mOZpr45aJVUHdl1fzaem6ht0zEABO_SWbPerTnq2WmOk_MFhmc2t9paCVC0Z0yVse80cRnUc--UT0nm7P8Q0exNHCacGwpTLERHcrP8vdEAhGu7zE6c7ieze0F0SZf6VGs2&amp;sai=AMfl-YRfFFJLpb_MHn5uPXaJOKI3Dk55ssB79t3P3OGhZD9dFn_7y69AeIa7SCD0DsfRyZ4vNfHvDJmJ2Fu8jgcLFQ6qEtOZXJoJJuyfOAG7ZM8SaP24o9dn8ZnAAl4&amp;sig=Cg0ArKJSzLSBFM2_kiG5EAE&amp;urlfix=1&amp;adurl=https://www.uol/conteudo-publicitario/2018/04/26/volvo-xc40-on-the-road-episodio-1.htm%3Futm_source%3Duolgeral%26utm_medium%3Dnativeconteudo" target="_blank" title="A bordo do novo XC40 da Volvo, o piloto Caca Clauset vai cruzar 14 países com o objetivo de chegar aos Estados Unidos">
+			<div class="ad-image">
+			</div>
+			<span class="ad-label">Conteúdo Publicitário</span>
+			<div class="ad-text-wrapper">
+				<p class="ad-text" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuNzymD0FPU2RWseEwNQwJu1Raixj0FvLNubszF32iJu17wAEi7Lx6oSU8iA802nkNTuypBfaLsoln8zsfIuTqEsO9YaAvAq94_vefj0mOZpr45aJVUHdl1fzaem6ht0zEABO_SWbPerTnq2WmOk_MFhmc2t9paCVC0Z0yVse80cRnUc--UT0nm7P8Q0exNHCacGwpTLERHcrP8vdEAhGu7zE6c7ieze0F0SZf6VGs2&amp;sai=AMfl-YRfFFJLpb_MHn5uPXaJOKI3Dk55ssB79t3P3OGhZD9dFn_7y69AeIa7SCD0DsfRyZ4vNfHvDJmJ2Fu8jgcLFQ6qEtOZXJoJJuyfOAG7ZM8SaP24o9dn8ZnAAl4&amp;sig=Cg0ArKJSzLSBFM2_kiG5EAE&amp;urlfix=1&amp;adurl=https://www.uol/conteudo-publicitario/2018/04/26/volvo-xc40-on-the-road-episodio-1.htm%3Futm_source%3Duolgeral%26utm_medium%3Dnativeconteudo" title="Conheça a expedição XC40 On the Road que rodará 18 mil quilômetros em websérie">Conheça a expedição XC40 On the Road que rodará 18 mil quilômetros em...</p>
+			</div>
+		</a>
+		<script>
+			function truncate(str, qtd_max, breakWord) {
+				var textAll = document.querySelectorAll(str),
+				format = function (arg, max) {
+					return arg.substring(0, max).replace(/!|,|;|\?$/g,"").replace(/&nb/g, " ") + "...";
+				};
+				return (function () {
+					for (var i = textAll.length - 1; i >= 0; i--) {
+						var elem = textAll[i];
+						var text = elem.textContent;
+						var size_str = text.length;
+						if (breakWord) {
+							elem.textContent = qtd_max <= size_str ? elem.textContent = format(text, qtd_max) : text;
+						} else {
+							if (qtd_max <= size_str) {
+								if (text[qtd_max] === " ") {
+									elem.textContent = format(text, qtd_max);
+								} else {
+									var lastSpace = text.lastIndexOf(' ', qtd_max),
+										textCrop = format(text, lastSpace);
+									elem.textContent = textCrop;
+								}
+							} else {
+								elem.textContent = text;
+							}
+						}
+					}
+				})()
+     		};
+			truncate(".ad-text", 75, false);
+		</script>
+		<iframe style="display:none;" id="DEprvwIfrm" marginwidth="0" marginheight="0" scrolling="no" src="container_003.htm" width="0" height="0" frameborder="0"></iframe>
+		<iframe style="display:none;" id="DEprvwIfrm2" marginwidth="0" marginheight="0" scrolling="no" src="container_003.htm" width="0" height="0" frameborder="0"></iframe>
+		<!-- Begin comScore Tag -->
+		<script>
+		    var _comscore = _comscore || [];
+		    _comscore.push({ c1: "7", c2: "26893702" ,c3: "1" });
+		    (function() {
+		        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		        el.parentNode.insertBefore(s, el);
+		    })();
+		    var comscoreDFP = true;
+		</script>
+		<noscript>
+		    <img src="https://sb.scorecardresearch.com/p?c1=7&c2=26893702&c3=1&cv=2.0&cj=1" />
+		</noscript>
+		<!-- End comScore Tag --></div><script src="container_data_003/osd_listener.js"></script><script type="text/javascript">osdlfm(-1,'','BtPPMO8z-WumBLvKohwfx66CgDgAAAAAQATgByAEJwAIC4AIA4AQBoAYf0ggFCIAhEAE','',2494594506,true,'ud\u003d1\u0026la\u003d0\u0026alp\u003dxai\u0026alh\u003d3407991525\u0026xza\u003d1\u0026',3,'CAASEuRo0af9XdwlpzFWUQoYvRYIMA','https://pagead2.googlesyndication.com/pcs/activeview?xai\u003dAKAOjssyzDoYiTjJ_H5g0BQ4HwUDNkBWiINZTNQfXq4Kv1JKJrzz5bmcsz7x3uECsqhNt4bWLR-xgsymQv1OKnBTskUC5YCa3OJCRtk\u0026sig\u003dCg0ArKJSzBe5tpFRwOJ4EAE','');</script><script>if (window.top && window.top.postMessage) {window.top.postMessage('{"googMsgType":"adpnt"}','*');}</script><div style="bottom:0;right:0;width:100px;height:100px;background:initial !important;position:absolute !important;max-width:100% !important;max-height:100% !important;pointer-events:none !important;image-rendering:-moz-crisp-edges !important;z-index:2147483647;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWBAMAAACrl3iAAAAABlBMVEUAAAD+AciWmZzWAAAAAnRSTlMAApidrBQAAAB+SURBVBjTbZGBEoAgCEPHH+z/v7aTDZ1eVhbHGg8E/ldpodC3I4CdJcj1OVFBWmkmko7eT7TzLU+1vX3Ze5O4gkliMblt6xDDTeE2B/WcvDDctgyFLJ16QMUv7rRujCmQ3DYvV7gmOFSICU4PqJygXu+80/z1bndeZ7mVa/8ALdcFr2xEZTUAAAAASUVORK5CYII=') !important"></div><script type="text/javascript">
+if(typeof moatDFPUOL == "undefined"){
+	if("33782206" == "23202406" || "33782206" == "25680526"){
+		 if("0x0" != "120x35" && "0x0" != "80x25" && "0x0" != "120x60"){
+				var script = document.createElement('script');
+				script.src = "https://z.moatads.com/uoldfp885172995032/moatad.js#moatClientLevel1=33782206&moatClientLevel2=2311587324&moatClientLevel3=4677232735&moatClientLevel4=138232106263&moatClientSlicer1=10808566&moatClientSlicer2=10808566&zMoatPS=bottom";
+				document.getElementsByTagName('head')[0].appendChild(script);
+				var moatDFPUOL = true;
+			}
+	}
+}
+</script><!-- Begin comScore Tag -->
+<script>
+if(typeof comscoreDFP == "undefined"){
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "8", c2: "6036356" ,c3: "1" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+}  
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=8&c2=6036356&c3=1&c15=&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+  
+  
+  
+
+</body></html>
